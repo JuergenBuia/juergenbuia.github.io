@@ -1,0 +1,113 @@
+body {
+	margin:0px auto;
+	font-size:12px;
+	font-family:Arial;
+	background-color: #d5d5d5;
+}
+
+#header {
+	position:relative;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	padding-left: 0;
+	height:20%;
+	background-color:white;
+	
+	text-align:center;
+}
+
+#headerimg {
+	position:absolute;
+	left:10px;
+	float:left;
+	height:150%;
+    transition: transform .2s; /* Animation */
+}
+
+#headerimg:hover {
+	transform: scale(1.5);
+}
+
+#menu {
+	width:100%;
+	text-align:center;
+	position: absolute;
+	bottom:5px;
+	left:0px;
+}
+
+#menu a {
+	bottom:0px;
+	text-decoration:none;
+	font-size:20px;
+	font-family:Verdana;
+	color:black;
+	margin-left:15px;
+	margin-right:15px;
+}
+
+#menu a:hover {
+	color: darkred;
+	text-decoration: underline;
+	transition: color 0.2s, text-decoration 0.5s;
+}
+
+#maintext {
+	background-color:white;
+	float:left;
+	width:80%;
+	text-align:left;
+	margin-left:10%;
+	padding-top:50px;
+	margin-bottom:60px;
+}
+
+#maintext p{
+	font-size:16px;
+	font-family:Arial;
+	margin-left:20px;
+	margin-right:20px;
+	margin-bottom:20px;
+}
+
+#maintext h1{
+	font-size:22px;
+	font-family:Arial;
+	margin-left:20px;
+	margin-right:20px;
+	text-decoration:bold;
+	margin-bottom:20px;
+}
+
+#maintext h2{
+	font-size:20px;
+	font-family:Arial;
+	margin-left:20px;
+	margin-right:20px;
+	margin-bottom:20px;
+}
+
+#maintext h3{
+	font-size:18px;
+	font-family:Arial;
+	margin-left:20px;
+	margin-right:20px;
+	margin-bottom:20px;
+}
+
+#maintext img {
+	width:80%;
+	margin-left:10%;
+	margin-bottom:20px;
+}
+
+.radiobutton {
+	position:fixed;
+	transition: transform .2s; /* Animation */
+	width:7%;
+}
+
+.radiobutton:hover {
+	transform: scale(1.2);
+}
